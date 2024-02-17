@@ -23,6 +23,11 @@ ul {
     padding: 14px 16px;
     text-decoration: none;
   }
+  @media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  }
   
   li a:hover {
     background-color: #111111;
